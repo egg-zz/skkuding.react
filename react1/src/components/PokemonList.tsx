@@ -7,7 +7,7 @@ function PokemonList() {
             {book.map((pokemon, index) => (
                 <PokemonItem key = {index} pokemon = {pokemon} index = {index} />
             ))}
-            console.log("PokemonList")
+            {/* console.log("PokemonList") */}
         </div>
     );
 }

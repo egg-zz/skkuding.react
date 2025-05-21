@@ -19,6 +19,7 @@ function PokemonDetail() {
     });
 
     const { id } = useParams();
+    const index = Number(id);
 
     useEffect(() => {
         const stored = localStorage.getItem('hoverPokemon');
@@ -26,8 +27,6 @@ function PokemonDetail() {
             setPokemon(JSON.parse(stored));
         }
     }, []);
-
-    const index = Number(id);
 
     return (
         <>
