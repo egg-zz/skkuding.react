@@ -1,0 +1,120 @@
+html{
+    background-color: black;
+    font-family: arial;
+}
+
+nav{
+    border-bottom: 1px solid rgb(193, 148, 43);
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    padding-left: 7rem;
+}
+
+nav h1{
+    color:rgb(224, 190, 17) ;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-items: center;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.card{
+    border: 1px solid rgb(104, 104, 67);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    line-height: 0.4;
+    width: 100%;
+    gap: 1rem;
+    padding: 10px;
+}
+
+.card:hover{
+    border: 2px solid yellow
+}
+
+.card h2{
+    color: white;
+    text-align: left;
+    margin-bottom: 0.5;
+    margin-top:0.5rem;
+}
+
+.card p{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: gray;
+    text-align: left;
+    margin-bottom: 1.5rem;   
+}   
+
+.hover-img{
+    margin-left: 20px;
+}
+
+.card img{ 
+    width: 4rem;
+    height: 4rem;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+
+main{
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img img{
+    border: 1px solid rgb(193, 148, 43);
+    border-radius: 100%;
+    size: 200px;
+    margin-bottom: 1.5rem;
+}
+
+
+main table{
+    border: 1px solid rgb(104, 104, 67);
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 2;
+    border-spacing: 0;
+}
+
+td{
+    border-bottom: 1px solid rgb(104, 104, 67);
+}
+
+main td:first-child{
+    color: rgb(185, 183, 183);
+    font-weight: bold;
+}
+
+main td:last-child{
+    text-align: right;
+    color: rgb(185, 183, 183);
+}
+
+tr:last-child td{
+    border-bottom: none;
+}
